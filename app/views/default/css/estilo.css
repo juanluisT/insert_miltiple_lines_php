@@ -1,0 +1,104 @@
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 13px;
+/* background-color:#FFFFCC;*/
+}
+
+/* Maquetación */
+#wrapper { 
+ margin: 0 auto;
+ width: 85%;
+}
+
+#header {
+ width: 85%;
+ float: center;
+ height: 120px;
+ background:#0099CC;
+ 	border-bottom:1px solid #D9E3E5;	
+}
+
+#Lmenu{ 
+ height:inherit;
+ width: 85%;
+ float: top;
+}
+/*
+#leftcolumn { 
+ height:inherit;
+ width: 20%;
+ float: left;
+}
+*/
+#content { 
+ float: left;
+ color: #333;
+ background:#CCCCCC;
+ width:76%;
+ height:inherit:
+}
+/* end: maquetación */
+
+/* estilo de texto */
+.t{
+	font-size:18px; font-weight:bold; margin:10px 0 10px 0; padding-left:20px;
+}
+
+/*------------- ESTILOS TABLA -----------------*/
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #83aec0;
+color: #FFFFFF;
+border-width: 1px;
+border-style: solid;
+border-color: #ffffff;
+font-family: “Trebuchet MS”, Arial;
+text-transform: uppercase;
+}
+
+.tabla td {
+padding: 5px;
+border-width: 1px;
+border-style: solid;
+border-color: #ffffff;
+text-align:right;
+} 
+
+
+/*------------------------- MENU IZQUIERDA ----------------------------*/
+#menu {
+	width: 700px%;
+	margin: 5px;
+
+}
+	
+#menu  a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}	
+	
+#menu  a:link, #menu5  a:visited {
+	color: #FFF;
+	display: inline-table;
+	background:  url(../images/menu.gif);
+	/*padding: 8px 0 0 10px;*/
+}
+	
+#menu  a:hover {
+	color: #FFF;
+	background:  url(../images/menu.gif) 0 -32px;
+	padding: 8px 10 10 10px;
+}
+#menu ul {
+	list-style: none;
+	margin: 10px;
+	padding: 10px;
+}
